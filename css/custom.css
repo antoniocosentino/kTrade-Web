@@ -1,0 +1,144 @@
+
+.header_console{
+  font-size: 11px;
+  padding: 17px 0;
+  text-align: right;
+}
+
+.header_account{
+  font-size: 11px;
+  padding: 17px 0;
+  text-align: left;
+}
+
+
+.kconsole{
+  background: #eee;
+  color: #fff;
+  font-family: Courier;
+  font-size: 13px;
+  padding: 20px;
+  overflow-y: scroll;
+  height: 520px;
+}
+
+.maxval{
+  color: green;
+}
+
+.minval{
+  color: red;
+}
+
+.movimento_val.green{
+  color: green;
+}
+
+.movimento_val.red{
+  color: red;
+}
+
+
+.box{
+  background: #eee;
+  color: #fff;
+  /*display: inline-block;*/
+  display: none;
+  padding: 10px;
+  text-transform: uppercase;
+  min-width: 80px;
+  text-align: center;
+}
+
+.box.red{
+  background: red;
+}
+
+.box.green{
+  background: green;
+}
+
+#enable_buy_sell.green{
+  background: green;
+  color: #fff; 
+}
+
+#developer_console{
+  font-family: Courier;
+  margin-top: 100px;
+}
+
+.open_position_zone{
+  margin-top: 30px;
+  background: #eee;
+  padding: 10px 20px 20px;
+  display: none;
+}
+
+.optitle{
+  letter-spacing: 1px;
+  color: #666;
+}
+
+.bs_enabled{
+  font-size: 10px;
+  background: #eee;
+  padding: 2px 8px;
+  border-radius: 1px;
+  display: none;
+  text-align: center;
+  width: 40%;
+}
+
+
+.bs_enabled.green{
+  background: green;
+  color: #fff;
+}
+
+.bs_enabled.red{
+  background: red;
+  color: #fff;
+}
+
+
+span.balance_zone{
+  display: none;
+}
+
+
+form{
+  margin-bottom: 0!important;
+}
+
+a.timerbtn{
+  text-decoration: none;
+  position: relative;
+  top: 4px;
+}
+
+a.timerbtn img{
+  width: 20px;
+  height: auto;
+  opacity: 0.4;
+}
+
+
+
+@media (max-width: 550px) {
+  .mobile_vspacer{
+    min-height: 30px;
+  }
+
+  input[type="number"]{
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 551px) and (max-width: 750px) {
+  input[type="number"]{
+    width: 98%;
+  }
+}
